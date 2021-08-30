@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triple N</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="page-wrapper">
+        <header id="header">
+            <div class="logo-content">
+                <img class="logo" src="https://www.freecodecamp.org/news/content/images/2020/01/freeCodeCamp_-_Style_Guide.jpg" style="height: 50px; width: 180px;" alt="freeCodeCamp" id="header-img">
+            </div>
+            <nav id="nav-bar">
+                <ul class="nav-list">
+                    <li><a href="#catalog">Catalog</a></li>
+                    <li><a href="#howitwork">How it works</a></li>
+                    <li><a href="#pricing">Pro Pricing</a></li>
+                    <li><a href="#">Community</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="container">
+            <div class="video-container">
+                <iframe id="video" height="350" width="450" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"   frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div id="registration" >
+                <h1 class="registration-title">Join to learn code with FreeCodecamp for free</h2>
+                <form class="form" action="https://www.freecodecamp.org/email-submit">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                    <button id="submit"><strong>Sign in</strong></button>
+                </form>
+                
+            </div>
+        </div>
+        <div id="catalog">
+            <h2 id="catalog-title">Explore our catalog</h2>
+            <div id="catalog-course">
+                <a href="">
+                    <div class="course-container" id="course-container-1">
+                        <div id="front-end-web" class="course">
+                            <span class="course-title">Course</span>
+                            <p class="course-content">Front End Development</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="course-container" id="course-container-2">
+                        <div id="data-visualization" class="course">
+                            <span class="course-title">Course</span>
+                            <p class="course-content">Data Visualization</p>
+                        </div>
+                    </div>        
+                </a>
+                <a href="">
+                    <div class="course-container" id="course-container-3">
+                        <div id="python" class="course">
+                            <span class="course-title">Course</span>
+                            <p class="course-content"> Python Certification</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="course-container" id="course-container-4">
+                        <div id="machine-learning" class="course">
+                            <span class="course-title">Course</span>
+                            <p class="course-content">Machine Learning </p>
+                        </div>
+                    </div>
+                   
+                </a>
+                
+            </div>
+        </div> 
+        <div id="howitwork">
+            <div id="howitwork-column-1">
+                <h3>How it works</h3>
+                <p>First, we inventer the best system for learning to code.</p>
+                <p>Ten years and 50 milion learner later, we perfected it.</p>
+            </div>
+            <div id="howitwork-column-2">
+                <div class="howitwork-column-2-content">
+                    <h2>Learn by doing</h2>
+                    <p>From building websites to analyzing data, the choice is yours. No matter your experience level, you'll be writing real, working code in minutes.</p>
+                    <div class="break-square"></div>
+                </div>
+                <div class="howitwork-column-2-content">
+                    <h2>Get instant feedback</h2>
+                    <p>Your code is tested as soon as you submit it, so you always know if you're on the right track.</p>
+                    <div class="break-square"></div>
+                </div>
+                <div class="howitwork-column-2-content">
+                    <h2>Put your learning into practice</h2>
+                    <p>Apply your learning with real-world projects and learn everything you need to take your career to the next level.</p>
+                </div>
+            </div>
+        </div> 
+        <table id="pricing">
+            <tr>
+                <th class="pricing-title">
+                    <div class="level">Basic</div>
+                </th>
+                <th class="pricing-title">
+                    <div class="level">Pro</div>
+                </th>
+                <th class="pricing-title">
+                    <div class="level">TEAMS</div>
+                </th>
+            </tr>
+            <tr>
+                <td class="pricing-content">
+                    <div class="product-container">
+                        <div class="product-content">
+                            <h2>$0</h2>
+                            <p>Interactive lesson & daily practice</p>
+                        </div>
+                        <button class="btn"><strong>Sign up</strong></button>
+                    </div>       
+                </td>
+                <td class="pricing-content">
+                    <div class="product-container">
+                        <div class="product-content">
+                            <h2>$15</h2>
+                            <p>Learn, practice & apply job-ready skills</p>
+                        </div>
+                        <button class="btn main" ><strong>Try Pro For Free</strong></button>
+                    </div>
+                </td>
+                <td class="pricing-content">
+                    <div class="product-container">
+                        <div class="product-content">
+                            <h2>$</h2>
+                            <p>Get freecodecamp for your whole team</p>
+                        </div>
+                        <button class="btn"><strong>Get a Quote</strong></button>
+                    </div>
+                   
+                </td>
+            </tr>
+        </table>
+        <footer>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Alumni Network</a></li>
+                <li><a href="#">Open Source</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Sponsors</a></li>
+                <li><a href="#">Academy honesty</a></li>
+                <li><a href="#">Code of Conduct</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Team of Service</a></li>
+                <li><a href="#">Copyright Policy</a></li>
+
+            </ul>
+        </footer>
+    </div>
+</body>
+    <script src="./helper.js"></script>
+    <script src="./script.js"></script>
+</html>
